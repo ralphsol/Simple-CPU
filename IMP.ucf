@@ -1,0 +1,14 @@
+ NET "Sysclk" TNM_NET="SysClk"; 
+ TIMESPEC "clk" = PERIOD "SysClk" 500000000 ns High 50%;
+ NET "clk" CLOCK_DEDICATED_ROUTE = FALSE; 
+ NET "result(0)" LOC= U18;
+ NET "result(1)" LOC= M14;
+ NET "result(2)" LOC= N14;
+ NET "result(3)" LOC= L14;
+ NET "result(4)" LOC= M13;
+ NET "result(5)" LOC= D4;
+ NET "result(6)" LOC= P16;
+ NET "result(7)" LOC= N12;
+ 
+ 
+ NET "reset" LOC= P4;
